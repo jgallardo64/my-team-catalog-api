@@ -1,0 +1,267 @@
+{
+  "name": "Player",
+  "plural": "Players",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "lastName": {
+      "type": "string",
+      "required": true
+    },
+    "overall": {
+      "type": "number",
+      "required": true
+    },
+    "position": {
+      "type": "string",
+      "required": true
+    },
+    "collectionId": {
+      "type": "object",
+      "required": true
+    },
+    "inside": {
+      "type": "number",
+      "required": true
+    },
+    "outside": {
+      "type": "number",
+      "required": true
+    },
+    "playmaking": {
+      "type": "number",
+      "required": true
+    },
+    "athletism": {
+      "type": "number",
+      "required": true
+    },
+    "defending": {
+      "type": "number",
+      "required": true
+    },
+    "rebounding": {
+      "type": "number",
+      "required": true
+    },
+    "image": {
+      "type": "string",
+      "required": true
+    },
+    "totalAttributes": {
+      "type": "number",
+      "required": true
+    },
+    "height": {
+      "type": "string",
+      "required": true
+    },
+    "weight": {
+      "type": "string",
+      "required": true
+    },
+    "team": {
+      "type": "object",
+      "required": true
+    },
+    "age": {
+      "type": "number",
+      "required": true
+    },
+    "openMid": {
+      "type": "number",
+      "required": true
+    },
+    "contestedMid": {
+      "type": "number",
+      "required": true
+    },
+    "movingMid": {
+      "type": "number",
+      "required": true
+    },
+    "open3PT": {
+      "type": "number",
+      "required": true
+    },
+    "contested3PT": {
+      "type": "number",
+      "required": true
+    },
+    "moving3PT": {
+      "type": "number",
+      "required": true
+    },
+    "shotIQ": {
+      "type": "number",
+      "required": true
+    },
+    "freeThrow": {
+      "type": "number",
+      "required": true
+    },
+    "offensiveConsistency": {
+      "type": "number",
+      "required": true
+    },
+    "speed": {
+      "type": "number",
+      "required": true
+    },
+    "acceleration": {
+      "type": "number",
+      "required": true
+    },
+    "vertical": {
+      "type": "number",
+      "required": true
+    },
+    "strength": {
+      "type": "number",
+      "required": true
+    },
+    "stamina": {
+      "type": "number",
+      "required": true
+    },
+    "hustle": {
+      "type": "number",
+      "required": true
+    },
+    "durability": {
+      "type": "number",
+      "required": true
+    },
+    "shotClose": {
+      "type": "number",
+      "required": true
+    },
+    "standingLayup": {
+      "type": "number",
+      "required": true
+    },
+    "drivingLayup": {
+      "type": "number",
+      "required": true
+    },
+    "standingDunk": {
+      "type": "number",
+      "required": true
+    },
+    "drivingDunk": {
+      "type": "number",
+      "required": true
+    },
+    "contactDunk": {
+      "type": "number",
+      "required": true
+    },
+    "drawFoul": {
+      "type": "number",
+      "required": true
+    },
+    "postControl": {
+      "type": "number",
+      "required": true
+    },
+    "postHook": {
+      "type": "number",
+      "required": true
+    },
+    "postFade": {
+      "type": "number",
+      "required": true
+    },
+    "hands": {
+      "type": "number",
+      "required": true
+    },
+    "ballControl": {
+      "type": "number",
+      "required": true
+    },
+    "passingAccuracy": {
+      "type": "number",
+      "required": true
+    },
+    "passingVision": {
+      "type": "number",
+      "required": true
+    },
+    "passingIQ": {
+      "type": "number",
+      "required": true
+    },
+    "speedBall": {
+      "type": "number",
+      "required": true
+    },
+    "onBallDefIQ": {
+      "type": "number",
+      "required": true
+    },
+    "lowPostDefIQ": {
+      "type": "number",
+      "required": true
+    },
+    "pNrDefIQ": {
+      "type": "number",
+      "required": true
+    },
+    "helpDefIQ": {
+      "type": "number",
+      "required": true
+    },
+    "lateralQuick": {
+      "type": "number",
+      "required": true
+    },
+    "passPerception": {
+      "type": "number",
+      "required": true
+    },
+    "reaction": {
+      "type": "number",
+      "required": true
+    },
+    "steal": {
+      "type": "number",
+      "required": true
+    },
+    "block": {
+      "type": "number",
+      "required": true
+    },
+    "shotContest": {
+      "type": "number",
+      "required": true
+    },
+    "defensiveConsistency": {
+      "type": "number",
+      "required": true
+    },
+    "offRebound": {
+      "type": "number",
+      "required": true
+    },
+    "defRebound": {
+      "type": "number",
+      "required": true
+    },
+    "boxout": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

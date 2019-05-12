@@ -1,0 +1,12 @@
+{
+  "mongoDB": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "mongodb://localhost:27017/my-team-catalog",
+    "database": "my-team-catalog",
+    "password": "",
+    "name": "mongoDB",
+    "user": "",
+    "connector": "mongodb"
+  }
+}
