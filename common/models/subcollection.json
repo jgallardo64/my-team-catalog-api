@@ -1,0 +1,37 @@
+{
+  "name": "Subcollection",
+  "plural": "Subcollections",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "players": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "reward": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "collectionInfo": {
+      "type": "belongsTo",
+      "model": "Collection",
+      "foreignKey": "collectionId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

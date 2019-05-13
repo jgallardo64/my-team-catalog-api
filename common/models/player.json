@@ -15,253 +15,209 @@
       "type": "string",
       "required": true
     },
-    "overall": {
-      "type": "number",
-      "required": true
-    },
     "position": {
       "type": "string",
       "required": true
     },
-    "collectionId": {
-      "type": "object",
-      "required": true
-    },
-    "inside": {
+    "overall": {
       "type": "number",
       "required": true
     },
     "outside": {
-      "type": "number",
-      "required": true
-    },
-    "playmaking": {
-      "type": "number",
-      "required": true
-    },
-    "athletism": {
-      "type": "number",
-      "required": true
-    },
-    "defending": {
-      "type": "number",
-      "required": true
-    },
-    "rebounding": {
-      "type": "number",
-      "required": true
-    },
-    "image": {
-      "type": "string",
-      "required": true
-    },
-    "totalAttributes": {
-      "type": "number",
-      "required": true
-    },
-    "height": {
-      "type": "string",
-      "required": true
-    },
-    "weight": {
-      "type": "string",
-      "required": true
-    },
-    "team": {
-      "type": "object",
-      "required": true
-    },
-    "age": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "openMid": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "contestedMid": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "movingMid": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "open3PT": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "contested3PT": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "moving3PT": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "shotIQ": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "freeThrow": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
-    "offensiveConsistency": {
-      "type": "number",
-      "required": true
+    "offConsistency": {
+      "type": "number"
+    },
+    "athletism": {
+      "type": "number"
     },
     "speed": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "acceleration": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "vertical": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "strength": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "stamina": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "hustle": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "durability": {
-      "type": "number",
-      "required": true
+      "type": "number"
+    },
+    "inside": {
+      "type": "number"
     },
     "shotClose": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "standingLayup": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "drivingLayup": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "standingDunk": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "drivingDunk": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "contactDunk": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "drawFoul": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "postControl": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "postHook": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "postFade": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "hands": {
-      "type": "number",
-      "required": true
+      "type": "number"
+    },
+    "playmaking": {
+      "type": "number"
     },
     "ballControl": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
-    "passingAccuracy": {
-      "type": "number",
-      "required": true
+    "passAccuracy": {
+      "type": "number"
     },
-    "passingVision": {
-      "type": "number",
-      "required": true
+    "passVision": {
+      "type": "number"
     },
-    "passingIQ": {
-      "type": "number",
-      "required": true
+    "passIQ": {
+      "type": "number"
     },
     "speedBall": {
-      "type": "number",
-      "required": true
+      "type": "number"
+    },
+    "defending": {
+      "type": "number"
     },
     "onBallDefIQ": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "lowPostDefIQ": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
-    "pNrDefIQ": {
-      "type": "number",
-      "required": true
+    "pickNRollDefIQ": {
+      "type": "number"
     },
     "helpDefIQ": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
-    "lateralQuick": {
-      "type": "number",
-      "required": true
+    "lateralQuickness": {
+      "type": "number"
     },
     "passPerception": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
-    "reaction": {
-      "type": "number",
-      "required": true
+    "reactionTime": {
+      "type": "number"
     },
     "steal": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "block": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "shotContest": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
-    "defensiveConsistency": {
-      "type": "number",
-      "required": true
+    "defConsistency": {
+      "type": "number"
+    },
+    "rebounding": {
+      "type": "number"
     },
     "offRebound": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "defRebound": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "boxout": {
-      "type": "number",
-      "required": true
+      "type": "number"
+    },
+    "totalAttributes": {
+      "type": "number"
+    },
+    "bronzeBadges": {
+      "type": ["string"]
+    },
+    "silverBadges": {
+      "type": ["string"]
+    },
+    "goldBadges": {
+      "type": ["string"]
+    },
+    "hofBadges": {
+      "type": ["string"]
+    },
+    "height": {
+      "type": "string"
+    },
+    "weight": {
+      "type": "string"
+    },
+    "age": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "collectionInfo": {
+      "type": "belongsTo",
+      "model": "Collection",
+      "foreignKey": "collectionId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }

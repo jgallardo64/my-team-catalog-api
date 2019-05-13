@@ -32,11 +32,15 @@
     "dataSource": "mongoDB",
     "public": false
   },
-  "Player": {
+  "Collection": {
     "dataSource": "mongoDB",
     "public": true
   },
-  "Collection": {
+  "Subcollection": {
+    "dataSource": "mongoDB",
+    "public": true
+  },
+  "Player": {
     "dataSource": "mongoDB",
     "public": true
   }

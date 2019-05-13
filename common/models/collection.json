@@ -11,11 +11,10 @@
       "type": "string",
       "required": true
     },
-    "players": {
+    "subcollections": {
       "type": [
-        "object"
-      ],
-      "required": true
+        "string"
+      ]
     }
   },
   "validations": [],
