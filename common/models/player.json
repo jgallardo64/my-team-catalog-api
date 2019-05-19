@@ -6,6 +6,9 @@
   "options": {
     "validateUpsert": true
   },
+  "scope": {
+    "include": ["subcollection", "team"]
+  },
   "properties": {
     "name": {
       "type": "string",
@@ -53,7 +56,7 @@
     "offConsistency": {
       "type": "number"
     },
-    "athletism": {
+    "athleticism": {
       "type": "number"
     },
     "speed": {
@@ -182,18 +185,6 @@
     "totalAttributes": {
       "type": "number"
     },
-    "bronzeBadges": {
-      "type": ["string"]
-    },
-    "silverBadges": {
-      "type": ["string"]
-    },
-    "goldBadges": {
-      "type": ["string"]
-    },
-    "hofBadges": {
-      "type": ["string"]
-    },
     "height": {
       "type": "string"
     },
@@ -209,10 +200,18 @@
   },
   "validations": [],
   "relations": {
-    "collectionInfo": {
+    "team": {
       "type": "belongsTo",
-      "model": "Collection",
-      "foreignKey": "collectionId",
+      "model": "Team",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "subcollection": {
+      "type": "belongsTo",
+      "model": "Subcollection",
+      "foreignKey": "",
       "options": {
         "nestRemoting": true
       }

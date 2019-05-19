@@ -1,6 +1,6 @@
 {
-  "name": "Collection",
-  "plural": "Collections",
+  "name": "Team",
+  "plural": "Teams",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -10,13 +10,17 @@
     "name": {
       "type": "string",
       "required": true
+    },
+    "conference": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],
   "relations": {
-    "subcollections": {
+    "players": {
       "type": "hasMany",
-      "model": "Subcollection",
+      "model": "Player",
       "foreignKey": "",
       "options": {
         "nestRemoting": true

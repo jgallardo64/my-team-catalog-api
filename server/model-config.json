@@ -43,5 +43,13 @@
   "Player": {
     "dataSource": "mongoDB",
     "public": true
+  },
+  "Team": {
+    "dataSource": "mongoDB",
+    "public": true
+  },
+  "Badge": {
+    "dataSource": "mongoDB",
+    "public": true
   }
 }

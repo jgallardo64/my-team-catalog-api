@@ -6,16 +6,16 @@
   "options": {
     "validateUpsert": true
   },
+  "scope": {
+    "include": "collection"
+  },
   "properties": {
     "name": {
       "type": "string",
       "required": true
     },
-    "players": {
-      "type": [
-        "string"
-      ],
-      "required": true
+    "image": {
+      "type": "string"
     },
     "reward": {
       "type": "string"
@@ -23,10 +23,18 @@
   },
   "validations": [],
   "relations": {
-    "collectionInfo": {
+    "collection": {
       "type": "belongsTo",
       "model": "Collection",
-      "foreignKey": "collectionId",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "players": {
+      "type": "hasMany",
+      "model": "Player",
+      "foreignKey": "",
       "options": {
         "nestRemoting": true
       }
