@@ -26,6 +26,10 @@
       "type": "number",
       "required": true
     },
+    "tier": {
+      "type": "string",
+      "required": true
+    },
     "outside": {
       "type": "number"
     },
