@@ -11,24 +11,19 @@
   },
   "properties": {
     "name": {
-      "type": "string",
-      "required": true
+      "type": "string"      
     },
     "lastName": {
-      "type": "string",
-      "required": true
+      "type": "string"      
     },
     "position": {
-      "type": "string",
-      "required": true
+      "type": "string"      
     },
     "overall": {
-      "type": "number",
-      "required": true
+      "type": "number"      
     },
     "tier": {
-      "type": "string",
-      "required": true
+      "type": "string"      
     },
     "outside": {
       "type": "number"
