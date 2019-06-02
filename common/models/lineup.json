@@ -44,45 +44,92 @@
       "type": "string",
       "required": true
     },
-    "player1": {
+    "bronzePlayers": {
       "type": "string",
       "required": true
     },
+    "silverPlayers": {
+      "type": "string",
+      "required": true
+    },
+    "goldPlayers": {
+      "type": "string",
+      "required": true
+    },
+    "emeraldPlayers": {
+      "type": "string",
+      "required": true
+    },
+    "sapphirePlayers": {
+      "type": "string",
+      "required": true
+    },
+    "rubyPlayers": {
+      "type": "string",
+      "required": true
+    },
+    "heatcheckPlayers": {
+      "type": "string",
+      "required": true
+    },
+    "amethystPlayers": {
+      "type": "string",
+      "required": true
+    },
+    "onyxPlayers": {
+      "type": "string",
+      "required": true
+    },
+    "diamondPlayers": {
+      "type": "string",
+      "required": true
+    },
+    "pinkDiamondPlayers": {
+      "type": "string",
+      "required": true
+    },
+    "galaxyOpalPlayers": {
+      "type": "string",
+      "required": true
+    },
+    "player1": {
+      "type": "object"
+    },
     "player2": {
-      "type": "string"
+      "type": "object"
     },
     "player3": {
-      "type": "string"
+      "type": "object"
     },
     "player4": {
-      "type": "string"
+      "type": "object"
     },
     "player5": {
-      "type": "string"
+      "type": "object"
     },
     "player6": {
-      "type": "string"
+      "type": "object"
     },
     "player7": {
-      "type": "string"
+      "type": "object"
     },
     "player8": {
-      "type": "string"
+      "type": "object"
     },
     "player9": {
-      "type": "string"
+      "type": "object"
     },
     "player10": {
-      "type": "string"
+      "type": "object"
     },
     "player11": {
-      "type": "string"
+      "type": "object"
     },
     "player12": {
-      "type": "string"
+      "type": "object"
     },
     "player13": {
-      "type": "string"
+      "type": "object"
     }
   },
   "validations": [],
