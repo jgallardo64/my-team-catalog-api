@@ -1,0 +1,101 @@
+{
+  "name": "Lineup",
+  "plural": "Lineups",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "scope": {
+    "include": [
+      "client"
+    ]
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "overall": {
+      "type": "string",
+      "required": true
+    },
+    "inside": {
+      "type": "string",
+      "required": true
+    },
+    "outside": {
+      "type": "string",
+      "required": true
+    },
+    "playmaking": {
+      "type": "string",
+      "required": true
+    },
+    "athleticism": {
+      "type": "string",
+      "required": true
+    },
+    "defending": {
+      "type": "string",
+      "required": true
+    },
+    "rebounding": {
+      "type": "string",
+      "required": true
+    },
+    "player1": {
+      "type": "string",
+      "required": true
+    },
+    "player2": {
+      "type": "string"
+    },
+    "player3": {
+      "type": "string"
+    },
+    "player4": {
+      "type": "string"
+    },
+    "player5": {
+      "type": "string"
+    },
+    "player6": {
+      "type": "string"
+    },
+    "player7": {
+      "type": "string"
+    },
+    "player8": {
+      "type": "string"
+    },
+    "player9": {
+      "type": "string"
+    },
+    "player10": {
+      "type": "string"
+    },
+    "player11": {
+      "type": "string"
+    },
+    "player12": {
+      "type": "string"
+    },
+    "player13": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "client": {
+      "type": "belongsTo",
+      "model": "Client",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

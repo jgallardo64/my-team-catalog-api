@@ -7,23 +7,26 @@
     "validateUpsert": true
   },
   "scope": {
-    "include": ["subcollection", "team"]
+    "include": [
+      "subcollection",
+      "team"
+    ]
   },
   "properties": {
     "name": {
-      "type": "string"      
+      "type": "string"
     },
     "lastName": {
-      "type": "string"      
+      "type": "string"
     },
     "position": {
-      "type": "string"      
+      "type": "string"
     },
     "overall": {
-      "type": "number"      
+      "type": "number"
     },
     "tier": {
-      "type": "string"      
+      "type": "string"
     },
     "outside": {
       "type": "number"

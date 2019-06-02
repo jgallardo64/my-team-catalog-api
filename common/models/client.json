@@ -1,0 +1,29 @@
+{
+  "name": "Client",
+  "plural": "Clients",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "role": {
+      "type": "string",
+      "required": true,
+      "default": "CLIENT"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "lineups": {
+      "type": "hasMany",
+      "model": "Lineup",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
